@@ -1,0 +1,127 @@
+/* Base styles */
+body {
+    background-color: #baddbd; /* Cream background */
+    color: #1a1a2e; /* Dark navy for body text */
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  /* Header with background image */
+#header {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Overlay for text readability */
+  #header .overlay {
+    background-color: rgba(26, 26, 46, 0.5); /* Navy-ish semi-transparent overlay */
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  /* Header text styles */
+  #header h1,
+  #header a,
+  #header p,
+  #header .subheading {
+    color: #fdfcf7; /* Cream text */
+    font-family: 'Georgia', serif;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
+  #header a {
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+  }
+  
+  #header a:hover {
+    border-bottom: 1px solid #fdfcf7;
+  }
+  
+  /* Optional: Adjust site-heading if needed */
+  .site-heading {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Section containers */
+  #about, #goals, #video-section, #before25, #tableau, #nav {
+    background-color: #ffffff;
+    color: #1a1a2e;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-left: 6px solid #1a1a2e;
+    border-radius: 6px;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #1a1a2e;
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+  }
+  
+  /* Lists */
+  ol {
+    padding-left: 1.5rem;
+  }
+  
+  ul {
+    list-style-type: circle;
+    padding-left: 1.2rem;
+  }
+  
+  ol li {
+    margin-bottom: 1rem;
+  }
+  
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+  
+  /* General links */
+  a {
+    color: #1a1a2e;
+    text-decoration: none;
+    border-bottom: 1px dotted #1a1a2e;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Tableau container sizing */
+  .tableauPlaceholder {
+    width: 100%;
+    max-width: 800px;
+    margin: 1rem auto;
+  }
+  
+  /* Responsive iframe for video */
+  iframe {
+    max-width: 100%;
+    border: none;
+    border-radius: 6px;
+  }
+  
